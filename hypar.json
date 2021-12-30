@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hypar.io/Schemas/Function.json",
+  "id": "e4fe6bd2-3beb-4c30-945d-348fd34250e0",
+  "name": "Airtable Test",
+  "description": "The AirtableTest function.",
+  "language": "C#",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "Refresh": {
+        "type": "boolean"
+      }
+    }
+  },
+  "outputs": [
+    {
+      "unit_type": "volume",
+      "name": "Volume",
+      "description": "The volume.",
+      "type": "number"
+    }
+  ],
+  "repository_url": "https://github.com/hypar-io/function",
+  "source_file_key": null,
+  "preview_image": null
+}
