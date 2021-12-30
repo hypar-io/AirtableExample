@@ -6,6 +6,7 @@ The AirtableTest function.
 
 |Input Name|Type|Description|
 |---|---|---|
+|Refresh|boolean||
 
 
 <br>
